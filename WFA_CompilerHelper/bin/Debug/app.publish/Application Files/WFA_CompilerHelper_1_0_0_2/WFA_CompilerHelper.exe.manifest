@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WFA_CompilerHelper.exe" version="1.0.0.2" publicKeyToken="65e45ac841a33db1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WFA_CompilerHelper" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WFA_CompilerHelper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 資訊清單選項
+            如果您要變更 Windows 使用者帳戶控制層級，請將 
+            requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 節點會停用檔案和登錄虛擬化。
+            如果您要針對回溯相容性使用檔案及登錄虛擬化，
+            請刪除 requestedExecutionLevel 節點。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WFA_CompilerHelper.exe" size="17408">
+      <assemblyIdentity name="WFA_CompilerHelper" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Vgp69SurIyd1A9YL2WWhJo/8Hzs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 可配合此應用程式使用的所有 Windows 版本的清單。
+      Windows 會自動選取最相容的環境。-->
+      <!-- 如果您的應用程式是設計成配合 Windows Vista 運作，請取消註解下列 supportedOS 節點-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- 如果您的應用程式是設計成配合 Windows 7 運作，請取消註解下列 supportedOS 節點-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- 如果您的應用程式是設計成配合 Windows 8 運作，請取消註解下列 supportedOS 節點-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SW204100\H.T.D" issuerKeyHash="e9666585bc43170c56f965e59896b744baf8db68" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tzqtdTVCuHPf2xXRkQwtXSXJ2LQ=</DigestValue></Reference></SignedInfo><SignatureValue>cQ4RBF7P6yr1Lx3HlHh+NhRJaf53uAkIvEz1oG2YoY/O6ESooHjhFg1dlr4JOWHxPNhMsQvC46GEhEjV/g2kQTvwhux160+kRc1G4OZyW4NQWTZme8DLyaW1sS499BaV7VYb/iCAvXV/0ByWlqK5Xrm36u3hoy8t6YWkn7VFY+8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w3Zm90HTDaHsI29yZMe1FLF4T9CkJpYL4vQUZTwyW55W2ZYV5EsmIfzc9e6W6AuahfBs/89hYlVJslItOoaBVqbZNGC9i1UvP6C3B0byVLebj3Hdtpv3CdsK9rPPEpFXK5FSNIR67C2TVbCe9J+/T0WrQDrAVW4PPlsfQQFZ7Zk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b4d8c9255d2d0c91d115dbdf73b8423575ad3ab7" Description="" Url=""><as:assemblyIdentity name="WFA_CompilerHelper.exe" version="1.0.0.2" publicKeyToken="65e45ac841a33db1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SW204100\H.T.D</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mMJk6+0rw4tEhStkqbs5KO5ufOU=</DigestValue></Reference></SignedInfo><SignatureValue>kJ/wBiuwQbB7nbsu6KtirAXvmBOpvXCTgY0TKuQ6Q4VBhYSt2nyfraKGLt5PF70zMBR3wjxL4FbJgPNdDfjG9upFgByd5ThG3DQRjTGv8jXE9TtbfgNiQysNYFTrw+6LB0Q/aoiOEV3dZ77Duv+32b1Rpt+vtuJhGgJY+P22KP4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w3Zm90HTDaHsI29yZMe1FLF4T9CkJpYL4vQUZTwyW55W2ZYV5EsmIfzc9e6W6AuahfBs/89hYlVJslItOoaBVqbZNGC9i1UvP6C3B0byVLebj3Hdtpv3CdsK9rPPEpFXK5FSNIR67C2TVbCe9J+/T0WrQDrAVW4PPlsfQQFZ7Zk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQOivOuIfZ84BG34Nf+EKtEjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAUwBXADIAMAA0ADEAMAAwAFwASAAuAFQALgBEMB4XDTEyMTEyNjIyMjk1NloXDTEzMTEyNzA0Mjk1NlowJzElMCMGA1UEAx4cAFMAVwAyADAANAAxADAAMABcAEgALgBUAC4ARDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAw3Zm90HTDaHsI29yZMe1FLF4T9CkJpYL4vQUZTwyW55W2ZYV5EsmIfzc9e6W6AuahfBs/89hYlVJslItOoaBVqbZNGC9i1UvP6C3B0byVLebj3Hdtpv3CdsK9rPPEpFXK5FSNIR67C2TVbCe9J+/T0WrQDrAVW4PPlsfQQFZ7ZkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCVP/l16hQEkX3e5vwel9y/AjQH+4I7Z7hP1oWrRWc3XQfk+f3hPwczhHDIHi4SJTAJjoQBa3oHsbV1AWcbUL0EKJzDwGURcsTbwUdbZx8BjPPZRgrHm9L50ks9k5F59mdud9wgDRpXWNrranqW+EZtXKxlYH6thfcsAtLZqOeNMA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

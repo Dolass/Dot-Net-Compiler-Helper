@@ -1,0 +1,6 @@
+適用於 Microsoft (R) .NET Framework 4.5 的
+Microsoft (R) Visual C# 編譯器版本 4.0.30319.17929
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+c:\CSharp\Class5.cs(47,25): error CS0103: 名稱 'EaDclass' 不存在於目前內容中
+
